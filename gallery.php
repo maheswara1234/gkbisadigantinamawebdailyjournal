@@ -102,7 +102,7 @@ include "koneksi.php";
                         </small>
                         
                         <div class="d-flex gap-2">
-                            <button class="btn btn-sm btn-warning text-white" data-bs-toggle="modal" data-bs-target="#modalEdit<?= $row["id"] ?>">
+                            <button class="btn btn-sm btn-success text-white" data-bs-toggle="modal" data-bs-target="#modalEdit<?= $row["id"] ?>">
                                 <i class="bi bi-pencil-square"></i> Edit
                             </button>
                             <button class="btn btn-sm btn-danger" data-bs-toggle="modal" data-bs-target="#modalHapus<?= $row["id"] ?>">
